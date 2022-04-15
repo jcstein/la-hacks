@@ -21,12 +21,12 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
      2. “ERC-721 defines a minimum interface a smart contract must implement to allow unique tokens to be managed, owned, and traded. It does not mandate a standard for token metadata or restrict adding supplemental functions.”
      3. Most tokens are fungible, but ERC-721 tokens are all unique. ERC-20 tokens are fungible = every token is the same as every other token
 
-        ![Screen Shot 2022-04-10 at 3.17.17 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cefbe34-6a6b-4f06-acaa-06740df44dd2/Screen_Shot_2022-04-10_at_3.17.17_PM.png)
+        ![Screen Shot 2022-04-10 at 3 17 17 PM](https://user-images.githubusercontent.com/46639943/163503856-18074d25-ac47-49a1-9f34-c08d8991b7a3.png)
 
 2. Take a look at the [Ankr integration with Ethers.js](https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/ankr-provider.ts#L28)
 3. Add Polygon to your MetaMask wallet as a network at [https://ankr.com/protocol/public](https://ankr.com/protocol/public) by clicking the MetaMask button
 
-   ![Screen Shot 2022-04-11 at 2.52.47 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4276db2-0d79-4d00-b43e-d3e9313ec8a4/Screen_Shot_2022-04-11_at_2.52.47_PM.png)
+<img width="491" alt="Screen Shot 2022-04-11 at 2 52 47 PM" src="https://user-images.githubusercontent.com/46639943/163503896-e7a36b82-cfbd-43dd-890d-7d2d0ba014eb.png">
 
 4. In your terminal, make a new directory called `ankr-polygon-nft`
 
@@ -160,13 +160,14 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
     1. Copy the private key from your MetaMask wallet with $MATIC in it
 
-       ![Screen Shot 2022-04-11 at 3.03.07 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42d3f5ba-fced-4e5f-8528-9ec827c3f7cf/Screen_Shot_2022-04-11_at_3.03.07_PM.png)
+<img width="358" alt="Screen Shot 2022-04-11 at 3 03 07 PM" src="https://user-images.githubusercontent.com/46639943/163503939-8c316d24-4f8e-4476-9818-3094880d536d.png">
 
-       ![Screen Shot 2022-04-11 at 3.04.12 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b0133d5-2a02-427f-b2da-628ff45d7ea9/Screen_Shot_2022-04-11_at_3.04.12_PM.png)
+<img width="358" alt="Screen Shot 2022-04-11 at 3 04 12 PM" src="https://user-images.githubusercontent.com/46639943/163503960-f8d3b353-6ccd-4ee7-8994-a9b2001c4e2f.png">
+
 
     2. [Register a new account](https://polygonscan.com/register), add a new API key, and copy the key from [polygonscan.com](http://polygonscan.com). This will allow us to verify our contract on polygonscan once it has been deployed.
-
-       ![Screen Shot 2022-04-11 at 2.48.16 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d504595-33db-47e2-b275-b04552b170fc/Screen_Shot_2022-04-11_at_2.48.16_PM.png)
+    
+<img width="834" alt="Screen Shot 2022-04-11 at 2 48 16 PM" src="https://user-images.githubusercontent.com/46639943/163503988-36e72cc2-7f84-45b9-86c1-b4b28c3499aa.png">
 
     3. Paste these keys into your `.env` file
 
@@ -222,7 +223,7 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
 18. Copy the contract address and find it in polygonscan at [polygonscan.com](http://polygonscan.com)
 
-    ![Screen Shot 2022-04-11 at 3.33.23 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30013d4c-d535-4391-aac9-8c90a20678d7/Screen_Shot_2022-04-11_at_3.33.23_PM.png)
+<img width="1335" alt="Screen Shot 2022-04-11 at 3 33 23 PM" src="https://user-images.githubusercontent.com/46639943/163504017-5568dcf9-3cb5-4814-994c-8d18d333f20b.png">
 
 19. Be sure your Polygon Scan API key is in your `.env` file and then run the following command to verify your contract on polygonscan. Be sure to replace the address with your contract address from Step 18. ⬇️
 
@@ -244,17 +245,18 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
 20. Our contract is now verified on polygonscan, along with 11 other contracts from Open Zeppelin included in the compilation
 
-    ![Screen Shot 2022-04-11 at 3.39.01 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42272105-8fb7-4b44-ae79-fd13e90f48df/Screen_Shot_2022-04-11_at_3.39.01_PM.png)
+<img width="1323" alt="Screen Shot 2022-04-11 at 3 39 01 PM" src="https://user-images.githubusercontent.com/46639943/163504037-f8aedc9d-7898-422a-97fa-3cf5da530e0e.png">
 
 21. In polygonscan, we are ready to call our function. First, select `Contract ✅`and then `Write Contract`. Locate the `mint` function (this should be #2)
 
     1. Next, click `🔴 Connect to Web3` to connect your MetaMask wallet
 
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67a706d4-7a2f-43e2-b4b1-155eb4e0744a/Untitled.png)
+       ![Untitled](https://user-images.githubusercontent.com/46639943/163504061-40db33b8-751c-4ef7-b44b-05fea2b832f7.png)
+
 
     2. If you connect to your wallet, it will now look like this ⬇️
 
-       ![Screen Shot 2022-04-11 at 3.52.57 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/101442c8-b568-4c30-818b-a12af0524ac5/Screen_Shot_2022-04-11_at_3.52.57_PM.png)
+       <img width="498" alt="Screen Shot 2022-04-11 at 3 52 57 PM" src="https://user-images.githubusercontent.com/46639943/163504097-5a21b51f-4c7a-4531-91cd-3d18b2998fa3.png">
 
 22. We will now need to set the Token URI and can use [web3.storage](http://web3.storage) to store our image and data. This will be in the form of a URL to a [JSON](https://www.json.org/json-en.html) file. I’ve gone ahead and made an image with the tools we’ve used on this tutorial. You can use whatever you’d like!
 
@@ -280,6 +282,8 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
 23. After uploading to [web3.storage](http://web3.storage), paste the URL to your JSON file and select `Mint` and then `Confirm` the MetaMask transaction
 
-![Screen Shot 2022-04-11 at 4.58.08 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db8acbc4-eec8-442b-a708-bddb0f07f45f/Screen_Shot_2022-04-11_at_4.58.08_PM.png)
+<img width="909" alt="Screen Shot 2022-04-11 at 4 58 08 PM" src="https://user-images.githubusercontent.com/46639943/163504147-4f1d920c-d4ad-4528-811d-4cbb00af61f6.png">
 
 24. Check out your OpenSea gallery to see your [NFT](https://opensea.io/assets/matic/0x66248349aa6ef98792c61b7c625f992bb5e7fbd2/1)!
+
+<img width="1624" alt="Screen Shot 2022-04-14 at 9 22 13 PM" src="https://user-images.githubusercontent.com/46639943/163504170-db214e7f-6926-40c2-a7fd-25af143eb3a7.png">
