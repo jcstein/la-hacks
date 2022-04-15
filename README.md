@@ -26,7 +26,7 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 2. Take a look at the [Ankr integration with Ethers.js](https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/ankr-provider.ts#L28)
 3. Add Polygon to your MetaMask wallet as a network at [https://ankr.com/protocol/public](https://ankr.com/protocol/public) by clicking the MetaMask button
 
-<img width="491" alt="Screen Shot 2022-04-11 at 2 52 47 PM" src="https://user-images.githubusercontent.com/46639943/163503896-e7a36b82-cfbd-43dd-890d-7d2d0ba014eb.png">
+    <img width="491" alt="Screen Shot 2022-04-11 at 2 52 47 PM" src="https://user-images.githubusercontent.com/46639943/163503896-e7a36b82-cfbd-43dd-890d-7d2d0ba014eb.png">
 
 4. In your terminal, make a new directory called `ankr-polygon-nft`
 
@@ -160,14 +160,13 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
     1. Copy the private key from your MetaMask wallet with $MATIC in it
 
-<img width="358" alt="Screen Shot 2022-04-11 at 3 03 07 PM" src="https://user-images.githubusercontent.com/46639943/163503939-8c316d24-4f8e-4476-9818-3094880d536d.png">
+        <img width="358" alt="Screen Shot 2022-04-11 at 3 03 07 PM" src="https://user-images.githubusercontent.com/46639943/163503939-8c316d24-4f8e-4476-9818-3094880d536d.png">
 
-<img width="358" alt="Screen Shot 2022-04-11 at 3 04 12 PM" src="https://user-images.githubusercontent.com/46639943/163503960-f8d3b353-6ccd-4ee7-8994-a9b2001c4e2f.png">
-
+        <img width="358" alt="Screen Shot 2022-04-11 at 3 04 12 PM" src="https://user-images.githubusercontent.com/46639943/163503960-f8d3b353-6ccd-4ee7-8994-a9b2001c4e2f.png">
 
     2. [Register a new account](https://polygonscan.com/register), add a new API key, and copy the key from [polygonscan.com](http://polygonscan.com). This will allow us to verify our contract on polygonscan once it has been deployed.
-    
-<img width="834" alt="Screen Shot 2022-04-11 at 2 48 16 PM" src="https://user-images.githubusercontent.com/46639943/163503988-36e72cc2-7f84-45b9-86c1-b4b28c3499aa.png">
+
+        <img width="834" alt="Screen Shot 2022-04-11 at 2 48 16 PM" src="https://user-images.githubusercontent.com/46639943/163503988-36e72cc2-7f84-45b9-86c1-b4b28c3499aa.png">
 
     3. Paste these keys into your `.env` file
 
@@ -253,7 +252,6 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
        ![Untitled](https://user-images.githubusercontent.com/46639943/163504061-40db33b8-751c-4ef7-b44b-05fea2b832f7.png)
 
-
     2. If you connect to your wallet, it will now look like this ⬇️
 
        <img width="498" alt="Screen Shot 2022-04-11 at 3 52 57 PM" src="https://user-images.githubusercontent.com/46639943/163504097-5a21b51f-4c7a-4531-91cd-3d18b2998fa3.png">
@@ -282,7 +280,7 @@ If you’re looking to learn how to deploy your first smart contract and mint yo
 
 23. After uploading to [web3.storage](http://web3.storage), paste the URL to your JSON file and select `Mint` and then `Confirm` the MetaMask transaction
 
-<img width="909" alt="Screen Shot 2022-04-11 at 4 58 08 PM" src="https://user-images.githubusercontent.com/46639943/163504147-4f1d920c-d4ad-4528-811d-4cbb00af61f6.png">
+    <img width="909" alt="Screen Shot 2022-04-11 at 4 58 08 PM" src="https://user-images.githubusercontent.com/46639943/163504147-4f1d920c-d4ad-4528-811d-4cbb00af61f6.png">
 
 24. Check out your OpenSea gallery to see your [NFT](https://opensea.io/assets/matic/0x66248349aa6ef98792c61b7c625f992bb5e7fbd2/1)!
 
