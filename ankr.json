@@ -1,0 +1,15 @@
+{
+  "name": "Ankr x Polygon ERC-721 Smart Contract",
+  "description": "Ankr x Polygon ERC-721 Smart Contract",
+  "image": "https://ipfs.io/ipfs/bafybeiagzmxj55ciebjr3vmnbjef7tjdgdeqckq54w4k4rk3msqqscxty4/Ankr%20x%20Polygon.svg",
+  "attributes": [
+    {
+      "trait_type": "Developer",
+      "value": "Josh CS"
+    },
+    {
+      "trait_type": "Website",
+      "value": "https://ankr.com"
+    }
+  ]
+}
